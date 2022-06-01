@@ -20,6 +20,7 @@
         "greeting share";
     box-shadow: var(--shadow);
     z-index: 1;
+    padding-bottom: 2%;
 }
 .searchbar {
     grid-area: searchbar;
@@ -259,7 +260,7 @@ a > img {
     vertical-align: sub;
 } 
 img {
-    max-width: 45%;
+    max-width: 30%;
     justify-self: end;
     margin-right: 10px;
 }
@@ -273,8 +274,11 @@ ul {
 li {
     display: list-item;
 }
+.seen {
+    max-width: 8%;
+}
 #bell {
-    max-width: 30%;
+    max-width: 25%;
     justify-self: right;
 }
 #search {
